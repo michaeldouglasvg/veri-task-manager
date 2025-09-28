@@ -1,0 +1,80 @@
+.register-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  min-height: 100vh;
+  background-color: #f8f9fa;
+}
+
+.register-form {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 2rem;
+}
+
+.logo-container {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.logo {
+  max-width: 150px;
+  height: auto;
+}
+
+.logo[src$=".svg"] {
+  width: 150px;
+  height: auto;
+  filter: invert(20%);
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.company-info {
+  text-align: center;
+  margin-top: 2rem;
+  padding: 2rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.info-text {
+  margin-bottom: 1.5rem;
+}
+
+.info-text h3 {
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.social-icons img {
+  width: 15px;
+  height: 15px;
+  transition: transform 0.2s;
+  fill: currentColor;
+  color: #333;
+}
+
+.social-icons img[src$=".svg"] {
+  filter: invert(20%);
+}
+
+.social-icons a:hover img {
+  transform: scale(1.1);
+}

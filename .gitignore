@@ -1,0 +1,99 @@
+##############################
+# 🚀 Backend (Spring Boot)
+##############################
+
+backend/target/
+backend/.mvn/
+backend/.mvn/wrapper/maven-wrapper.jar
+backend/mvnw
+backend/mvnw.cmd
+*.jar
+*.war
+*.log
+*.zip
+*.tar.gz
+*.rar
+hs_err_pid*
+bin/
+!backend/src/main/**/bin/
+!backend/src/test/**/bin/
+
+# Spring-specific
+**/.classpath
+**/.project
+**/.settings/
+**/.factorypath
+**/.springBeans
+**/.sts4-cache
+
+# Config files
+backend/src/main/resources/application-*.properties
+!backend/src/main/resources/application.properties
+!backend/src/main/resources/application-dev.properties
+!backend/src/main/resources/application-prod.properties
+
+##############################
+# 🌐 Frontend (Angular)
+##############################
+
+frontend/node_modules/
+frontend/dist/
+frontend/.angular/
+frontend/.angular/cache/
+frontend/coverage/
+
+# Package managers
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Env files
+frontend/.env
+frontend/.env*.local
+
+# Misc
+*.spec.failed.png
+.sass-cache
+connect.lock
+libpeerconnection.log
+testem.log
+typings/
+
+##############################
+# 🧠 IDEs / Editors
+##############################
+
+.idea/
+.vscode/
+*.sublime-workspace
+*.iml
+*.iws
+*.ipr
+
+##############################
+# 🖥️ OS / System Files
+##############################
+
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+##############################
+# 🧪 Testing & Coverage
+##############################
+
+/coverage
+/.nyc_output
+/test-results
+
+##############################
+# 🧹 Temp
+##############################
+
+/tmp
+/temp
