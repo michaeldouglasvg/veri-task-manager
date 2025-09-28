@@ -16,6 +16,9 @@ Before you begin, ensure you have the following installed on your system:
 - npm (comes with Node.js)
 - Angular CLI v19.2.17
 
+<!-- Sample Pages -->
+https://docs.google.com/document/d/1IAgdkXrWsO5372_o92mSrEn-JleoumuBakGH9oCXyvE/edit?usp=sharing
+
 <!-- DEVELOPMENT -->
 ## Development Setup
 ### Backend Setup (Spring Boot)
